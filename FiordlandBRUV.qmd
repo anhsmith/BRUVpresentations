@@ -1,0 +1,161 @@
+---
+title: "Monitoring of blue cod in Fiordland with<br>stereo Baited Remote Underwater Video (BRUV)"
+author: "Dr. Adam N. H. Smith" 
+institute: "Director, Sea Through Science Ltd."
+title-slide-attributes:
+  data-background-video: "vid/fiord_cod_tarakihi.mp4"
+  data-background-size: "cover"
+  data-background-video-loop: true
+  data-background-video-muted: true
+  data-notes: "Hello. By way of introduction, some of you might know me from when I worked in the NIWA fisheries modelling group at Greta Point in 2006-8. I left NIWA to do my PhD and have been lecturing statistics at Massey University in Auckland since 2013. Alongside my Massey position, last year I started a business called Sea Through Science, for which I do statistical consulting and marine fieldwork, usually with baited remote underwater video, or BRUVs. Today, I'll be describing the method and why I and several other folks think it has some promise for monitoring fish stocks in Fiordland."
+format: 
+  revealjs:
+    theme: [default, styles.scss]
+    logo: "img/mark_black.png"
+    transition: fade
+    background-transition: fade
+    smaller: true
+---
+
+## What is a 'Stereo BRUV'?
+
+::: {.columns}
+
+::: {.incremental .column width="40%"} 
+
+- Stereo Baited Remote Underwater Video
+- Stainless steel frame with two video cameras pointing at a bait canister, with lights and a depth sensor
+- Used around the world as a standard method of monitoring carnivorous fishes
+- With two calibrated video cameras and specialist software, can accurately measure lengths
+
+:::
+
+::: {.column width="60%"}
+
+![](img/BRUV2.png)
+
+:::
+
+:::
+
+![](img/length.png){.fragment .absolute bottom=0 right=0 width="640" height="324.5"}
+
+
+## Fiordland Marine Area {#all-white-right background-image="img/punga.jpg"}
+
+::: {.fragment}
+Unique marine ecosystems surrounded by UNESCO World Heritage site
+:::
+
+::: {.fragment}
+Important commercial and recreational fisheries include blue cod, rock lobster, and pāua
+:::
+
+::: {.fragment}
+Oversight by the Fiordland Marine Guardians is mandated under<br>The Fiordland (Te Moana o Atawhenua) Marine Management Act 2005
+:::
+
+::: {.fragment}
+
+[![Fiordland Marine Guardians (2023) *Proposed further amendments to fishing regulations in the Fiordland Marine Area* ](img/guardians.png)](https://www.mpi.govt.nz/dmsdocument/58060-Proposed-further-amendments-to-fishing-regulations-in-the-Fiordland-Te-Moana-o-Atawhenua-Marine-Area)
+:::
+
+
+
+## Blue cod {#all-dark background-image="img/bluecodpot.png"}
+
+Growing concern about the blue cod populations in Fiordland
+
+Blue cod in Fiordland were historically assessed by potting surveys <br>but there's been no formal survey since 2014
+
+
+## Our work {#all-white background-image="img/sw.jpg"}
+
+In 2021 and 2024, the Department of Conservation supported BRUV surveys of Fiordland.
+
+Ministry for Primary Industries has funded the annotation of the videos.
+
+
+::: notes
+
+Fiordland's lobster fishery is a great success story, but there are growing concerns about the blue cod populations. 
+
+Traditionally, for fishery-independed surveys blue cod are assessed  surveyed by potting
+
+The last potting survey of blue cod in Fiordland was a decade ago.
+
+:::
+
+## Advantages of BRUVs
+
+::: {.columns}
+
+::: {.incremental .column width="40%"} 
+
+- Broadly supported; non-destructive, non-lethal
+- Established methodology
+- Rapid replication
+- Standardised observation period (60 min)
+- Depth range
+- Captures information on multiple species, size-classes, habitats
+- Permanent video archive
+
+:::
+
+::: {.column width="60%"}
+
+![Photo credit: C. Rob Priester](img/rob_housings.jpg)
+
+:::
+
+:::
+
+
+## Disadvantages of BRUVs {.h2right}
+
+::: {.columns}
+
+::: {.column width="40%"}
+
+![Photo credit: C. Rob Priester](img/carry.jpg)
+
+:::
+
+::: {.incremental .column width="60%"} 
+
+- Expensive upfront costs of gear
+- Time-consuming annotation of videos (though AI will soon see to that)
+- Provides an index of abundance from an unknown area
+- Cannot tell the sex of non-sexually dimorphic specices (e.g., blue cod)
+
+:::
+
+:::
+
+
+
+## Next steps
+
+- 
+
+
+## Acknowledgements
+
+
+::: {.columns}
+
+::: {.column width="60%"} 
+
+- Ministry for Primary Industries
+- Richard Kinsey (DOC Te Anau)
+- Odette Howarth, Rob Priester
+- Crew of the Southern Winds
+- Fiordland Marine Guardians
+
+:::
+
+::: {.column width="30%"} 
+![Rich Kinsey<br>Photo credit: C. Rob Priester](img/rich.jpg)
+:::
+
+:::

@@ -1,0 +1,25 @@
+---
+author: "Dr. Adam N. H. Smith" 
+institute: "Director, Sea Through Science Ltd."
+title-slide-attributes:
+  data-background-video: "vid/fiord_cod_tarakihi.mp4"
+  data-background-size: "cover"
+  data-background-video-loop: true
+  data-background-video-muted: true
+  data-notes: "Hello. By way of introduction, some of you might know me from when I worked in the NIWA fisheries modelling group at Greta Point in 2006-8. I left NIWA to do my PhD and have been lecturing statistics at Massey University in Auckland ever since. I'm still lecturing at Massey, but last year I started my own business called Sea Thr Sci, for which I do statistical consulting and marine fieldwork, usually with baited remote underwater video, or BRUVs. Today, I'll be describing the method and why I and several other folks think it has some promise for monitoring fish stocks in Fiordland."
+format: 
+  revealjs:
+    theme: [default, styles.scss]
+    logo: "img/mark_black.png"
+    transition: fade
+    background-transition: fade
+---
+
+## Monitoring of blue cod in Fiordland with stereo Baited Remote Underwater Video (BRUV) {background-video="vid/fiord_cod_tarakihi.mp4", }
+
+## What is a 'BRUV'?
+
+
+
+
+
