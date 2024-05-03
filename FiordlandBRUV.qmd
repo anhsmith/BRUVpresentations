@@ -136,7 +136,11 @@ The last potting survey of blue cod in Fiordland was a decade ago.
 
 ## Next steps
 
-- 
+- Annotation of the videos (funded by MPI)
+    
+    - Focal species: blue cod, tarakihi, school shark
+    - Two different indices of abundance: "MaxN" and "MeanCount"
+    - Two different indices of abundance: "MaxN" and "MeanCount"
 
 
 ## Acknowledgements
