@@ -38,7 +38,7 @@ format:
 
 :::
 
-![](img/length.png){.fragment .absolute bottom=0 right=0 width="640" height="324.5"}
+![](img/length2.png){.fragment .absolute top=90 right=25 width="1024" height="336"}
 
 
 ## Fiordland Marine Area {#all-white-right background-image="img/punga.jpg"}
