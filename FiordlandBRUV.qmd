@@ -41,51 +41,6 @@ format:
 ![](img/length2.png){.fragment .absolute top=90 right=25 width="1024" height="336"}
 
 
-## Fiordland Marine Area {#all-white-right background-image="img/punga.jpg"}
-
-::: {.fragment}
-Unique marine ecosystems surrounded by UNESCO World Heritage site
-:::
-
-::: {.fragment}
-Important commercial and recreational fisheries include blue cod, rock lobster, and pāua
-:::
-
-::: {.fragment}
-Oversight by the Fiordland Marine Guardians is mandated under<br>The Fiordland (Te Moana o Atawhenua) Marine Management Act 2005
-:::
-
-::: {.fragment}
-
-[![Fiordland Marine Guardians (2023) *Proposed further amendments to fishing regulations in the Fiordland Marine Area* ](img/guardians.png)](https://www.mpi.govt.nz/dmsdocument/58060-Proposed-further-amendments-to-fishing-regulations-in-the-Fiordland-Te-Moana-o-Atawhenua-Marine-Area)
-:::
-
-
-
-## Blue cod {#all-dark background-image="img/bluecodpot.png"}
-
-Growing concern about the blue cod populations in Fiordland
-
-Blue cod in Fiordland were historically assessed by potting surveys <br>but there's been no formal survey since 2014
-
-
-## Our work {#all-white background-image="img/sw.jpg"}
-
-In 2021 and 2024, the Department of Conservation supported BRUV surveys of Fiordland.
-
-Ministry for Primary Industries has funded the annotation of the videos.
-
-
-::: notes
-
-Fiordland's lobster fishery is a great success story, but there are growing concerns about the blue cod populations. 
-
-Traditionally, for fishery-independed surveys blue cod are assessed  surveyed by potting
-
-The last potting survey of blue cod in Fiordland was a decade ago.
-
-:::
-
 ## Advantages of BRUVs
 
 ::: {.columns}
@@ -133,18 +88,110 @@ The last potting survey of blue cod in Fiordland was a decade ago.
 :::
 
 
+## Fiordland Marine Area {#all-white-right background-image="img/punga.jpg"}
 
-## Next steps
+::: {.fragment}
+Unique marine ecosystems surrounded by UNESCO World Heritage site
+:::
 
-- Annotation of the videos (funded by MPI)
+::: {.fragment}
+Important commercial and recreational fisheries include blue cod, rock lobster, and pāua
+:::
+
+::: {.fragment}
+Oversight by the Fiordland Marine Guardians is mandated under<br>The Fiordland (Te Moana o Atawhenua) Marine Management Act 2005
+:::
+
+::: {.fragment}
+
+[![Fiordland Marine Guardians (2023) *Proposed further amendments to fishing regulations in the Fiordland Marine Area* ](img/guardians.png)](https://www.mpi.govt.nz/dmsdocument/58060-Proposed-further-amendments-to-fishing-regulations-in-the-Fiordland-Te-Moana-o-Atawhenua-Marine-Area)
+:::
+
+
+
+## Blue cod {#all-dark background-image="img/bluecodpot.png"}
+
+Growing concern about the blue cod populations in Fiordland
+
+Blue cod in Fiordland were historically assessed by potting surveys
+
+No formal survey since 2014
+
+
+## Our work {#all-white background-image="img/sw.jpg"}
+
+In 2021 and 2024, the Department of Conservation supported BRUV surveys of Fiordland.
+
+Ministry for Primary Industries has funded the annotation of the videos.
+
+
+::: notes
+
+Fiordland's lobster fishery is a great success story, but there are growing concerns about the blue cod populations. 
+
+Traditionally, for fishery-independed surveys blue cod are assessed  surveyed by potting
+
+The last potting survey of blue cod in Fiordland was a decade ago.
+
+:::
+
+
+
+## Fiordland 2021
+
+```{r}
+#| echo: false
+library(mapview)
+map_fiordland21 <- readRDS("map/map_fiordland21.rds")
+map_fiordland21
+```
+
+90 deployments at 10-95 m depths.
+
+
+## Dusky Sound 2024
+
+```{r}
+#| echo: false
+library(mapview)
+map_fiordland24 <- readRDS("map/map_fiordland24.rds")
+map_fiordland24
+```
+
+139 deployments at 15-86 m depths.
+
+## Current and future work
+
+- Annotation of 2024 Fiordland BRUV videos (ongoing, funded by MPI)
     
-    - Focal species: blue cod, tarakihi, school shark
+    - Focal species: blue cod, tarakihi, hāpuku, school shark
     - Two different indices of abundance: "MaxN" and "MeanCount"
-    - Two different indices of abundance: "MaxN" and "MeanCount"
+    - Length frequencies (for both MaxN and MeanCount)
+
+- 96 deployments in the Hauraki Gulf (funded by DOC)
+
+::: {.columns}
+
+::: {.column width="40%"} 
+
+- Seeking joint funding with [afid.io](https://www.afid.io/) to develop AI-automated software for NZ BRUV videos, which would cut costs significantly!
+
+:::
+
+::: {.column width="60%"} 
+
+<!-- {{< video vid/AFID.mp4  -->
+<!--      title="afid.io" -->
+<!--      video-loop="true" >}} -->
+
+![](vid/AFID.mp4){title="afid.io" auto-play-media="true" video-loop="true"}
+
+:::
+
+:::
 
 
 ## Acknowledgements
-
 
 ::: {.columns}
 
@@ -159,6 +206,7 @@ The last potting survey of blue cod in Fiordland was a decade ago.
 :::
 
 ::: {.column width="30%"} 
+
 ![Rich Kinsey<br>Photo credit: C. Rob Priester](img/rich.jpg)
 :::
 
