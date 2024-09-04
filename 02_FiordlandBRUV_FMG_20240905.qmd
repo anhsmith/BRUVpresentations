@@ -96,21 +96,22 @@ And finally, thanks to the skippers and crew of the Southern Winds, and other he
 
 Broad agreement -- why put this point here? 
 
-- In my role as a scientist, I try to put aside my own values because they're not really relevant to my scientific work. 
-- I'm not here to convince anyone about what they should and shouldn't value
+- In my role as a scientist, I try to put aside my own values. 
+- I'm not here to convince anyone about what they should and shouldn't value. Values are subjective, and they vary from person to person.  
 - It’s the role of groups like the Guardians to represent the values of the citizens and stakeholders.
-- As a scientist, my role is to provide scientific information and advice based on empirical observations. And that role is better served by having principles rather than values. Principles like openness, honesty, objectivity, transparency, and equanimity. 
-- You could say that my only value is the pursuit of the truth, whatever that may be.
+- As a scientist, my values are not relevant. My role is to provide scientific information and advice based on empirical observations. And that role is better served by having principles rather than values. Principles like openness, honesty, objectivity, transparency, and equanimity. 
+- I'm interested in only the truth, whatever that may be.
 - While I have no problem with advocacy groups, I generally avoid advocacy because it interferes with my role as a scientist. It is difficult to remain objective if one has entrenched opinions about what you want the truth to be.
+
 - That said, I suspect that almost everyone can agree that we shouldn't overfish to the point of fishery collapse. We want these resources to be available to future generations.
 
 Protecting fish stocks requires good management. And good management is a balancing act between protecting the ecosystem without being overly restrictive. If rules are too restrictive, people lose trust in our institutions and they might just flout the rules. Not restrictive enough, and we degrade our resources.
 
-To ensure management is justified and effective, we need good information on the current state of populations, the density of individuals, even if just as a relative measure, and also information on the size and sex structure of the population
+To ensure management is justified and effective, we need good information on the current state of populations, the density of individuals, even if just measured relatively through time, and perhaps information on the size and sex structure of the population.
 
-Furthermore, we need to know something about population trends through time. This is true especially when there are changes to regulations. 
+Perhaps more importantly, we need to know something about population trends through time. This is true especially when there are changes to regulations. 
 
-For trends, we need regular monitoring. The more often we survey, the more information we have on trends. There's simply no substitute for regular surveying if you want to know about trends.
+To look at trends, we need regular monitoring. The more often we survey, the more information we have on trends. There's simply no substitute for regular surveying if you want to assess trends.
 
 Monitoring fish is hard -- trust me, I've spent most of my career counting fish using various methods and analysing the data. As my colleague Russel Millar once said: Counting fish is hard because you can't see them, and they move. 
 
@@ -118,7 +119,7 @@ There are myriad methods out there for quantifying fish populations, with all so
 
 For example, 
 
-- for broad-scale surveys across a continental shelf, research trawls might be a good idea. This sort of data can enable a full stock assessment, which can estimate the total biomass of a stock through time. This requires a truckload of data, including commercial catch data and usually fishery-independent data going back years. It is generally a very broad-scale project. 
+- for broad-scale surveys across a continental shelf, research trawls might be a good idea. This sort of data can feed into broad scale fish stock assessment models. These models typically require a truckload of catch data going back many years, and they're done at a very broad scale, such as the whole of Southland. 
 - in relatively shallow coastal environments, counts by scuba divers works
 - Tag-recapture methods can be used for some populations if you assume they mix well
 
@@ -250,8 +251,8 @@ tibble(
 
 <div class="fragment" style="position: absolute; left: 28%; top: 62%; font-size: 90%;">
 
-- In the 2014 survey, 1799 blue cod were captured (1237 kg; 96% killed) 
-- Non-neglible losses for a sensitive, low-productivity ecosystem
+- In the 2014 survey, 1799 blue cod<br>were captured (1237 kg; 96% killed) 
+- Non-neglible losses for a sensitive,<br>low-productivity ecosystem
 - No potting survey since 2014
 
 </div>
@@ -261,6 +262,14 @@ tibble(
 ?
 
 </div>
+
+::: {.fragment }
+
+![](img/BCO5_commcatch_plenary24.png){.absolute top="15%" left="28%" width="68%"}
+
+![](img/BCO_stockmap.png){.absolute top="60%" right=0 width="18%"}
+
+:::
 
 ::: notes
 
@@ -279,6 +288,8 @@ So, there has been no potting survey since 2014, a full decade ago, which means 
 
 Furthermore, we don't have hard data on what the current trends are for key species in Fiordland.
 
+In the broader stock that includes Southland and Fiordland, there have been some worrying trends over the past 20 years. 
+
 :::
 
 ## Blue cod potting
@@ -295,7 +306,7 @@ Furthermore, we don't have hard data on what the current trends are for key spec
 
 ::: notes
 
-This situation prompted the Fiordland Marine Guardians, in a document released last year, to express an interest in investigating alternative, non-destructive methods of surveying blue cod, specifically mentioning Baited Underwater Video. 
+This situation prompted the Fiordland Marine Guardians, in a document released last year, to express an interest in investigating alternative, non-destructive methods of surveying key species in Fiordland. They specifically mention a method called Baited Underwater Video. 
 
 Which is where I come in.
 
@@ -332,7 +343,7 @@ We have six of these units, and we throw them into the sea and leave them for ju
 
 This has become a standard tool for monitoring fishes internationally. I've used these things for several years across New Zealand from the Kermadecs to Fiordland, as well as in several other countries, the Galapagos Islands, New Caledonia, Fiji. 
 
-We used this method was used in a global study of sharks called Global FinPrint, which surveyed sharks on coral reefs all over the world.
+We also used this method in a global study of sharks called Global FinPrint, which surveyed sharks on coral reefs all over the world.
 
 Why stereo? This one of the reasons why this method is so powerful...
 
@@ -399,9 +410,9 @@ And finally, there is the data analysis and reporting.
 
 :::
 
-## Our work {#all-white background-image="img/sw.jpg"}
+## Our work in Fiordland {#all-white background-image="img/sw.jpg"}
 
-In 2021 and 2024, the Department of Conservation funded BRUV surveys of Fiordland.
+In 2021 and 2024, the Department of Conservation funded BRUV surveys in Fiordland.
 
 The Ministry for Primary Industries funded the annotation of the 2024 videos.
 
@@ -411,6 +422,8 @@ The Ministry for Primary Industries funded the annotation of the 2024 videos.
 In 2021 and 2024, Rich Kinsey invited us on board the Southern Winds to undertake BRUV surveys in Fiordland.
 
 MPI has also supported the work by paying for annotation of the 2024 videos.
+
+Today, I'm going to present some of the videos and some preliminary results, mainly in the form of distribution maps. 
 
 :::
 
@@ -427,7 +440,7 @@ map_fiordland21
 
 ::: notes
 
-Here's a map of the sites we surveyed in 2021 -- 90 deployments across multiple fiords.
+Here's a map of the sites we surveyed in 2021 -- 90 deployments across multiple fiords. This was part of a project by my former postgraduate student, Odette Howarth. 
 
 :::
 
@@ -445,7 +458,7 @@ map_fiordland24
 
 ::: notes
 
-Then in 2024 we did a more focused survey in Tamatea/Dusky Sound, for a total of 136 deployments.
+Then, in 2024, Rich Kinsey at DOC commissioned up to do a more intensive survey of Tamatea/Dusky Sound, for a total of 136 deployments.
 
 :::
 
@@ -462,7 +475,13 @@ Then in 2024 we did a more focused survey in Tamatea/Dusky Sound, for a total of
 
 ::: notes
 
-Here's a 
+Alright, video time. Here's a BRUV that's just been dropped overboard and is heading to the seafloor, here around 26 metres.
+
+This one is interesting for a few reasons. You'll see that there is nothing much to see when it hits the floor, but after a few moments...
+
+There are a lot of juvenile blue cod here. And the fact that so many turn up so quickly means that they are a lot very nearby the camera. This might indicate a habitat that is important to juvenile blue cod.
+
+There's also a couple of tarakihi here. 
 
 :::
 
@@ -475,17 +494,15 @@ Here's a
 
 ::: notes
 
-This is a map of Dusky Sound. There are a couple of marine reserves in the vicinity. 
+Here's a map of Dusky Sound showing counts of blue cod as the size of the points. Bigger points mean more blue cod were seen at that site.
 
 The video we just saw is this one in the Tuamoana Marine Reserve (fourth from the top of line).
 
-The size of these points represents the counts of blue cod.
+What do these numbers mean? The numbers are what's known as the "MaxN" count, which is the highest number seen on a single frame of the video.
 
-The numbers represent what's known as the "MaxN" count, which is the highest number seen on a single frame of the video.
+We don't just count every fish we see, because a single fish could circle the gear 100 times and get counted 100 times, and we can't tell that situation from 100 individuals going by. Hence, the conservative approach of using a single frame.
 
-We don't just count each fish we see, because a single fish could circle the gear 100 times and get counted 100 times.
-
-By this method we can get some very large counts, up to 38 individuals. For snapper in the Hauraki Gulf, we've got as many as 56 in one frame. 
+By this method, we can get some very large counts, up to 38 individual blue cod here. For snapper in the Hauraki Gulf, we've got as many as 56 in one frame. 
 
 The average MaxN count across the whole survey was 5.5 individuals.
 
@@ -502,9 +519,11 @@ We also take measurements of lengths at different intervals, so that we can get 
 
 ::: notes
 
-For the remaining species, such as tarakihi, I'm just going to show maps of where they were seen.
+For other species that are not so numerous, such as tarakihi, I'm just going to show you maps of presence and absence.
 
-Solid points are sites where we saw tarakihi; open circles are where we didn't. They turned up in a more than half of the sites, throughout the fiord.
+Solid points are sites where we saw tarakihi; open circles are where we didn't. 
+
+Tarakihi turned up in a more than half of the sites, throughout the fiord.
 
 :::
 
@@ -524,7 +543,9 @@ Solid points are sites where we saw tarakihi; open circles are where we didn't. 
 
 ::: notes
 
-This is the same deployment as the last video I showed you, but much later on. We can see more species have arrived, notably crayfish and school shark. There are five crays and three schoolies here.
+What else did we see?
+
+This is the same deployment as the last video I showed you, but much later on. We can see more species have turned up, notably crayfish and school shark. There are five crays and three schoolies here.
 
 We can also see that there are not so many juvenile blue cod, but a lot more large blue cod. This is a key advantage of the method -- it seems we get a much better view of the size structure of the population because we see whatever comes past, not just whatever gets stuck in the pot.
 
@@ -552,7 +573,7 @@ We don't see school sharks anywhere close to this regularly in the outer Hauraki
 
 ::: notes
 
-Crayfish were also quite widespread. 
+Crayfish were also fairly widespread. 
 
 It looks like like they were observed particularly often in the marine reserve, where they were seen in 11 out of 14 sites. They were seen much less often outside the reserve. 
 
@@ -728,8 +749,8 @@ We can look at interactions and associations among species -- which species are 
 - Globally established methodology
 - Standardised observation period (60 min)
 - Broad depth range
-- Permanent video archive
 - Captures a wealth of information on multiple species, size-classes, and habitats
+- Permanent video archive
 
 :::
 
@@ -753,9 +774,11 @@ It's globally established, standardised methodology. I was a co-author on a publ
 
 They can access all sorts of habitats at a broad range of depths. We've sent some systems down to 1200 metres (not these ones). 
 
-They'll record anything that goes near a BRUV, all species of all sizes, as well as habitat information, in a permanent video archive. 
+They'll record anything that goes near a BRUV, all species of all sizes, as well as habitat information. 
 
 The fact that we have all this geographical and habitat information means that we can figure out what which areas and habitats are important to blue cod populations, at different parts of their life history.
+
+Finally, all the videos are stored in a permanent archive. We've extracted the data that we want, but the future opportunities are endless. These videos will likely be mined for information and projects we haven't even thought of yet. 
 
 :::
 
@@ -829,11 +852,11 @@ ggflowchart(flow, compl, fill = Funded, horizontal = T, x_nudge = 0.5, y_nudge =
 
 ::: {.absolute top="50%"}
 
+- Ongoing monitoring of Tamatea/Dusky Sound using BRUVs (ideally every 1-3 years)
+
 - Annotation of the 2021 BRUV data (at least for sites repeated in 2024) 
 
 - Statistical analysis and reporting for key species
-
-- Ongoing monitoring of Tamatea/Dusky Sound using BRUVs (ideally every 1-3 years)
 
 - Comparison of potting data with BRUV data
 
@@ -845,11 +868,16 @@ ggflowchart(flow, compl, fill = Funded, horizontal = T, x_nudge = 0.5, y_nudge =
 
 ::: notes
 
+
 So far, DOC and MPI have funded the fieldwork and annotation of the 2024 data.
 
 We do not have any funding for the statistical analysis and reporting, and we do not have funding lined up for future surveys.
 
 It seems to me that continuing with these surveys, even if it's just Dusky, is a good idea, given the sensitivity of the inner Fiordland ecosystems, concerns about population trends, and recent changes to regulations. 
+
+Much like planting trees, the best time to start a good monitoring programme is 20 years ago, the second best time to start a good monitoring programme is right now.
+
+So that’s what we’ve done.
 
 I don't think it would be wise to wait another decade, or even five years, to do another survey.
 
@@ -877,23 +905,23 @@ And like I said, there may be scope to complement the BRUV data with other sourc
 
 
 - Establish monitoring objectives
-- Is the BRUV the right tool?
+- Is the stereo BRUV the right tool?
 - If so, how can we ensure the continuation of this work?
 
 ::: notes
 
-Much like planting trees, the best time to start a good monitoring programme is 20 years ago, the second best time to start a good monitoring programme is right now.
+Which brings me to the end of my talk. 
 
-So that’s what we’ve done.
+I'd like to know if you think that stereo BRUVs are the right tool, and do they meet the objectives around what we want to know? 
 
-The trouble is, like I said, we have yet to secure funding to continue this project, or even report on what we've done. 
+The trouble is, like I said, we have yet to secure funding to continue this monitoring, or even report on what we've done so far. 
 
 - While MPI have been supportive, I get the feeling that MPI is more focused on managing stocks that are commercially harvested; blue cod are no longer commercially harvested in the inner fiords
 - DOC are very supportive but they have a tonne of projects competing for limited funding and resources
 
-I see a lot of potential here, given the wealth of information that this method can provide about one of the world's most interesting and quirky marine ecoystems. 
+I see a lot of potential here, given the wealth of information that this method can provide about one of the world's most interesting and marine ecosystems. 
 
-It would a shame to drop this project after such a promising start, and given the importance of monitoring to the management of these ecosystems for the future. 
+I think it would a shame to drop this project after such a promising start, and given the importance of monitoring to the management of these ecosystems for the future. 
 
 Thank you.
 
