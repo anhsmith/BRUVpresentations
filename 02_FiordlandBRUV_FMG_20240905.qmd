@@ -477,7 +477,7 @@ Then, in 2024, Rich Kinsey at DOC commissioned up to do a more intensive survey 
 
 Alright, video time. Here's a BRUV that's just been dropped overboard and is heading to the seafloor, here around 26 metres.
 
-This one is interesting for a few reasons. You'll see that there is nothing much to see when it hits the floor, but after a few moments...
+This one is interesting for a few reasons. There is nothing much to see when it hits the floor, but after a few moments...
 
 There are a lot of juvenile blue cod here. And the fact that so many turn up so quickly means that they are a lot very nearby the camera. This might indicate a habitat that is important to juvenile blue cod.
 
@@ -734,7 +734,7 @@ We can look at interactions and associations among species -- which species are 
 
 - For example, a predator might decline alongside prey species, giving a possible explanation for that decline.
 
-- Better able to understand ecosystem dynamics, which gives us a stronger basis for effective management.
+- Better able to understand ecosystem dynamics, which gives us a stronger basis for more effective, ecosystem-based management.
 
 :::
 
