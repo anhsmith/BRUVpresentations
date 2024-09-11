@@ -500,7 +500,11 @@ Then, in 2024, Rich Kinsey at DOC commissioned us to do a more intensive survey 
 
 Alright, video time. Here's a BRUV that's just been dropped overboard and is heading to the seafloor, here around 26 metres.
 
+<<<<<<< HEAD
 This particular deployment is interesting for a few reasons. There is nothing much to see when it hits the floor, but after a few moments...
+=======
+This one is interesting for a few reasons. There is nothing much to see when it hits the floor, but after a few moments...
+>>>>>>> 55b565340b4c63bdfcb578ffef1a674efb023254
 
 There are a lot of juvenile blue cod here. And the fact that so many turn up so quickly means that they are a lot very nearby the camera. This might indicate a habitat that is important to juvenile blue cod.
 
