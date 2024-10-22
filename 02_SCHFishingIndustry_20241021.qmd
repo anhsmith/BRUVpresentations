@@ -1,0 +1,371 @@
+---
+title: "Opportunities for School Shark Research"
+image: img/ReefCodScar.png
+author: "Dr Adam Smith and Mr Alex Burton"
+institute: "Sea Through Science Limited and Massey University"
+title-slide-attributes:
+  data-background-video: "vid/02_FLD24_s07_R04_codcraysschoolies.mp4"
+  data-background-size: "cover"
+  data-background-video-loop: true
+  data-background-video-muted: true
+  data-notes: "
+  I am a statistician and marine scientist. I've been around for a while. 
+  In the 2000s, I worked at DOC as a statistician and in NIWA's fisheries modelling group.
+  Since 2009 I went to Massey University to do my PhD and have been lecturing statistics
+  there every since. 
+  
+  About a year ago, I started a company called Sea Through Science, which I do 
+  statistical consulting and marine ecology work, notably, using baited underwater
+  video surveys in Fiordland and the Hauraki Gulf. This video here is from our 
+  survey in Dusky Sound.
+  
+  Many of you know Alex Burton, my shark-mad PhD student. His other supervisors are Clinton Duffy,
+  John Harrison and Marie-Anne Thelen. Marc Griffiths is an advisor at FNZ, which 
+  funded his project. Alex is currently on the home straight, writing up his 
+  thesis.
+  
+"
+format: 
+  revealjs:
+    theme: [default, styles.scss]
+    logo: "img/mark_black.png"
+    footer-logo-link: "https://anhsmith.github.io/sea-through-science/"
+    background-transition: fade
+    slide-transition: fade
+    smaller: true
+filters: 
+  - reveal-header
+---
+
+```{r}
+library(tidyverse)
+theme_set(theme_bw())
+```
+
+## Alex's PhD
+
+1. General Introduction
+2. Navigating Morphometric Minefields: Converting among variants of length measurements of school sharks
+3. Coming of Age: A global study of size-at-maturity of school shark
+4. Connectivity of the New Zealand school shark population
+5. Geographic variation in growth and condition of juvenile New Zealand school shark
+6. Do female school sharks transfer metal contaminants to their pups?
+7. General Discussion
+
+*Scholarships and operational funding from Fisheries NZ, Massey University, and Sea Through Science.*
+
+*Support from Sanford, Egmont Seafoods, Talleys, Pelco, Observer Programme, NIWA, Tindale Marine Research, and others.*
+
+::: notes
+
+This is one of the broadest PhD theses I've seen. To be honest, it is closer to 
+two theses than one. Most have only three data chapters, whereas Alex has five.
+
+I wanted to acknowlege the support we've had already -- bottom of slide
+
+I circulated to you a document in my original email which summarises each chapter. 
+Alex would be more than happy to answer any questions you may have on the other chapters.
+
+But I'm just going to show you a couple of results from the fourth chapter, 
+which looked at the movements of school sharks caught in the Kaipara Harbour, 
+a known nursery.
+
+:::
+
+## Movements of school sharks
+
+![](img/MiniPAT.png){.absolute top="0%" right="0%" width="15%"}
+
+We fit 25 mini-PAT tags to large females in the Kaipara Harbour.
+
+Mini-PATs logged data for a year, then popped of and transmitted data to satellite.
+
+![](img/sharktag.png){.absolute bottom="15%" left="0%" height="50%"}
+![](img/tagshark_closeup.jpg){.absolute bottom="15%" right="0%" height="50%"}
+
+
+::: notes
+
+These are neat little contraptions. They're basically data loggers that record
+depth, temperature and light. You can programme them to pop off after, say, a year
+then they transmit their data to us via a satellite, and you can see what the 
+animal has been up to.
+
+:::
+
+---
+
+![](img/MiniPAT.png){.absolute top="0%" right="0%" width="15%"}
+
+![](img/tracks_Jan2022.png){.absolute top="0%" left="0%" height="90%"}
+![](img/heatmap_zoomed.png){.fragment .absolute top="0%" left="55%" height="65%" style="border: 1px solid black;"}
+
+::: notes
+
+Here is a sample of the tracks that were made by sharks caught in January 2022.
+Remember these are all large females caught in the Kaipara. 
+There are two very interesting tracks. 
+One went to the Three Kings Islands, and one went all the way to the Snares Islands!
+
+The picture on the right is a heatmap, produced by an analysis 
+called kernel density estimation applied to the tracks from multiple sharks, 
+including some that went to the west coast of the south island.
+
+It shows that the sharks showed residency behaviour (as opposed to travelling) 
+in three distinct areas: Northland, Northern Taranaki Bight, and just north of
+Cook Strait. 
+
+These are very likely to be feeding grounds.
+
+:::
+
+## Plenty more to do...
+
+![](img/schoolshark.jpg){.absolute top=0 right=0 height="15%"}
+
+- Alex's PhD addressed many of the research priorities outlined in the 2024 plenary
+but there are still plenty of gaps!
+- We now seek partnerships and funding to extend this research
+
+::: notes
+
+Now that Alex is nearing the end of his studies, we're looking for ways to 
+keep doing this important research.
+
+:::
+
+
+## Why now? 
+
+![](img/schoolshark.jpg){.absolute top=0 right=0 height="15%"}
+
+#### 1. More information leads to more confident management
+
+- Most school shark fisheries have collapsed worldwide
+- NZ is doing okay but there is some concern, particularly in Southland
+- International organisations have their eyes on school sharks
+    - Recent IUCN[^1] classification as "globally Critically Endangered"
+    - Appendix 2 of CMS[^2]
+    - CITES[^3]?
+
+[^1]: International Union for Conservation of Nature
+[^2]: Convention on the Conservation of Migratory Species of Wild Animals
+[^3]: Convention on International Trade in Endangered Species of Wild Fauna and Flora
+
+::: notes
+
+There is increasing scrutiny of the fishery by these international conventions, 
+to which NZ is a party and therefore must abide by their rulings.
+
+If international governing bodies start asking questions about the NZ stock 
+and the answer is "we don't know", then we won't be in a strong position to 
+argue that our fisheries are sustainable. We need to come from a position of 
+knowledge.
+
+I don't really want to be scare mongering, but from what I understand, this 
+is a real threat to the fishery. It could be closed down overnight if we 
+cannot make solid arguments for our fishery being sustainable.
+
+:::
+
+## Why now? 
+
+![](img/schoolshark.jpg){.absolute top=0 right=0 height="15%"}
+
+#### 1. More information leads to more confident management
+#### 2. We are perfectly positioned to do the research
+
+- **Expertise**: fisheries, ecology, statistics, chemistry, and Alex is an expert in school sharks
+- **Experience**: tried a lot of avenues of research -- we know what works!
+- **Networks**: science, industry, fishers, NIWA, DOC, MPI, iwi
+- **Access**: data, specimens, world-class molecular labs, necropsy facilities, freezers, etc.
+- **New company**
+- Heading to Southland in February 2025
+
+::: notes
+
+:::
+
+## Why now? 
+
+![](img/schoolshark.jpg){.absolute top=0 right=0 height="15%"}
+
+#### 1. More information leads to more confident management
+#### 2. We are perfectly positioned to do the research
+#### 3. Strong possibility of in-kind funding from MPI
+
+- Sustainable Food and Fibre Futures (SFFF)
+- SFFF matches funding from other sectors (cash and/or support)
+
+::: notes
+
+Funding for fisheries research is pretty bad currently -- 
+reduced this year after not being increased for decades
+
+Marc thinks we have a good chance of getting funding via SFFF if 
+another party comes to the table
+
+SFFF will also match the value of logistical support-boat time, 
+donations of specimens, etc.
+
+:::
+
+## We propose to...
+
+![](img/schoolshark.jpg){.absolute top=0 right=0 height="15%"}
+
+
+![](img/tag_icon.png){.absolute top="15%" left="3%" height="15%"}
+
+[**Tag** more sharks in more areas to understand stock movements]{.absolute top="22%" left="15%"}
+
+
+![](img/measure.png){.absolute top="35%" left="0%" height="12%"}
+
+[**Measure** sharks to understand biology]{.absolute top="40%" left="15%"}
+
+
+![](img/dna.png){.absolute top="53%" left="0%" height="12%"}
+
+[**eDNA** samples of cloaca to determine diets]{.absolute top="58%" left="15%"}
+
+
+
+![](img/syringe.png){.absolute top="72%" left="0%" height="12%"}
+
+[**Blood** samples to determine condition and reproductive status]{.absolute top="76%" left="15%"}
+
+
+::: notes
+
+Understanding the stock structure, how these aggregation sites are connected 
+and what the sharks are using them for and when, is important, and feeds 
+directly into how we do stock assessments. 
+
+For example: Where are the bottlenecks in the population? 
+Where are they most vulnerable?
+What are the implications for area x if there's a decline in CPUE in area y?
+
+When we're out there catching sharks, we will collect measurements and samples.
+- Lengths
+- Cloacal swab to determine diets based on DNA content using established methods
+- Take blood samples to determine condition and reproductive status, heavy metals
+
+These will be stored in an archive to be analysed, if not now, at a later date.
+
+Together, this information will feed directly into the management of this 
+species, and will provide a much more complete picture of the biology and 
+ecology of New Zealand's school sharks.
+
+
+:::
+
+## Summary
+
+![](img/schoolshark.jpg){.absolute top=0 right=0 height="25%"}
+
+#### We seek support from industry
+- Funding 
+- Logistics (boat time, specimens, etc.)
+
+<br>
+
+#### Then, we'll apply to SFFF for matching funding
+
+<br>
+
+#### We have lots of other ideas!
+
+- The 2024 plenary lists research priorities
+    - Improve methods of aging (DNA methylation)
+    - Analysis of existing data for stock structure
+    - Baited video surveys of aggregation sites
+
+
+![](img/BRUV.png){.absolute bottom="15%" right=0 height="30%"}
+
+::: notes
+
+The most difficult and expensive part of this sort of research is the field work, 
+and being able to catch enough specimens. 
+
+With the help of the industry and fishers, this research becomes imminently viable. 
+Alex has made lots of contacts in the industry and they've been very helpful, 
+donating specimens and offering to take us out on vessels, etc. 
+
+The purpose of this meeting is gauge the interest of you, the industry,
+in providing support in the form of funding and logistics for research 
+on school sharks -- research that will directly inform the management 
+of this species, and potentially ward off the efforts of international 
+agencies to close fisheries of this species worldwide. We can only 
+make compelling arguments from an informed position. The bigger the gaps
+in our knowledge, they'll default to assuming the worst and make the 
+most conservative decisions.
+
+While funding is generally scarce, SFFF might be in play if we can get this
+off the ground. 
+
+The great thing about SFFF is that we can include the cash value of the 
+logistical support (boat time, specimens, etc.) from industry, so they 
+will likely contribute more cash funding than industry.
+
+I haven't approached SFFF yet because I wanted to gauge your interest first.
+
+Of course, we have lots of other ideas for useful research, which we're happy 
+to discuss.
+
+These are just some examples:
+
+Keeping a close eye on DNA methylation work in Australia
+
+There's a lot of other data around that could be curated and analysed
+
+We have the non-invasive baited video method which can be used to characterise 
+stock size-sex structure, habitat associations, and aggregation sites. 
+
+(In our recent study in Dusky Sound, we saw school sharks in the majority of depl)
+
+So that's all I really wanted to say. Again, what I wish to achieve with this 
+meeting is to gauge the level of interest in these proposed proposed research. 
+
+If this is something you think you can support, great, we can talk details. 
+
+If not, then if you want to have a chat about our research, past or future, 
+we'd be happy to answer any questions you have.
+
+Thanks -- I'll turn it over to you now. 
+
+:::
+
+
+## Tamatea/Dusky Sound 2024
+
+```{r}
+#| echo: false
+library(mapview)
+map_fiordland24 <- readRDS("map/map_fiordland24.rds")
+map_fiordland24
+```
+
+136 deployments at depths of 15-86 m
+
+::: notes
+
+Then, in 2024, Rich Kinsey at DOC commissioned us to do a more intensive survey of Tamatea/Dusky Sound, for a total of 136 deployments.
+
+:::
+
+
+## Presence of school shark
+
+![](img/schoolshark.jpg){.absolute top=0 right=0 height="15%"}
+
+![](img/pres_scho.png)
+
+::: notes
+
+I was very surprised at how many school shark we saw throughout the survey -- they appeared in more than half the deployments, and throughout Dusky Sound. Up to around five individuals. My PhD student, Alex Burton, is working on school sharks, so he was very excited to see this. 
+
+We don't see school sharks anywhere close to this regularly in the outer Hauraki Gulf.
+
+:::
