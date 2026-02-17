@@ -33,6 +33,7 @@ format:
     transition: fade
     background-transition: fade
     smaller: true
+    embed-resources: true
 filters: 
   - reveal-header
 ---
@@ -45,9 +46,11 @@ theme_set(theme_bw())
 
 ##  {#all-white-fifteen background-image="img/rod-long-yUYStPPUthM-unsplash.jpg"}
 
-<br><br><br><br><br><br><br>
+<br><br><br><br><br>
 
 ### Acknowledgements
+
+::: {.small}
 
 - Northland Regional Council
   + Nicola Hartwell
@@ -57,6 +60,7 @@ theme_set(theme_bw())
 - Skipper Bob Clarke, and Eli Sherman, Warren Matene, and Richard Griffiths
 - Heidi Schlumpf
 
+:::
 
 ## What is a 'Stereo BRUV'?
 
@@ -106,7 +110,7 @@ Why stereo? This one of the reasons why this method is so powerful...
 
 After calibrating a stereo BRUV with a special hardware and software, 
 
-you can take accurate measurements of the lenghts of fish and other objects.
+you can take accurate measurements of the lengths of fish and other objects.
 
 Much like our having two eyes allow to perceive depths.
 
@@ -120,61 +124,15 @@ Much like our having two eyes allow to perceive depths.
 - After calibration with a specialist cube and software,<br> stereo BRUVs allow for accurate measurements of lengths.
 :::
 
-## Advantages of BRUVs
 
-::: {.columns}
-
-::: {.column width="40%"} 
-
-- Cost-effective
-- Non-destructive, non-lethal
-- Globally established methodology
-- Standardised observation period (60 min)
-- Broad depth range
-- Captures a wealth of information on multiple species, size-classes, and habitats
-- Permanent video archive
-
-:::
-
-::: {.column width="60%"}
-
-![Photo credit: C. Rob Priester](img/rob_housings.jpg)
-
-:::
-
-:::
-
-::: notes
-
-So, what are some of the advantages of this method?
-
-It's non-destructive. No fish were harmed to bring you these data.
-
-Because it's cost effective and non-destructive, we can do it more frequently.
-
-It's globally established, standardised methodology. I was a co-author on a published paper that established the standardised methods.
-
-They can access all sorts of habitats at a broad range of depths. We've sent some systems down to 1200 metres (not these ones). 
-
-They'll record anything that goes near a BRUV, all species of all sizes, as well as habitat information. 
-
-The fact that we have all this geographical and habitat information means that we can figure out what which areas and habitats are important to blue cod populations, at different parts of their life history.
-
-Finally, all the videos are stored in a permanent archive. We've extracted the data that we want, but the future opportunities are endless. These videos will likely be mined for information and projects we haven't even thought of yet. 
-
-:::
-
-
-## Our survey 
+## The survey 
 
 :::: {.columns}
 
 ::: {.column width="30%"}
 
-- Surveyed fish and habitats in/around the Rakaumangamanga Rāhui Tapu no-take area
-- 42 deployments in 2 days (contracted to do 36) in April 2025
+- 42 deployments in 2 days (contracted to do 36) in May 2025
 - Four levels of protection
-- The goal was to assess biodiversity and, in particular, abundance and size of tāmure 
 
 :::
 
@@ -192,28 +150,61 @@ We got a lot done, thanks largely to the great crew that we had in the field
 
 :::
 
+## {background-video="vid/BOI25_S07_R03_H12-03_MN090_bronzie.mp4" background-video-loop="true" background-video-muted="true"}
+
+Small snapper and a bronzie 
+
+## {background-video="vid/BOI25_S07_R03_H12-03_MN090_bigsnapper.mp4" background-video-loop="true" background-video-muted="true"}
+
+Large snapper
 
 ## Overall results
 
+:::: {.columns}
+
+::: {.column width="60%"}
+
+- Observed 38 species from 22 families of fish
+- Average of 9.2 species per deployment
+- Tāmure / snapper were dominant — present at every site, ranging from 15 to 105, average 50
+- Araara / trevally also very widespread
+- Sharks and rays included eagle rays, two bronze whalers, short- and long-tail stingrays, and a hammerhead
+
+:::
+
+::: {.column width="40%"}
+
 ![](plots/boi25_g_occ.svg){.absolute top="0%" right="0%" height="100%" style="z-index:-1;"}
 
+:::
 
-## Results for tāmure
+::::
 
-![](img/snapper_transparent.png){.absolute top="0%" right="0%" width="32%" style="z-index:-1;"}
+
+## Results for tāmure / snapper
+
+![](img/snapper_transparent.png){.absolute top="-4%" right="0%" width="25%"}
+
+![](plots/g_snapm_jit_maxn_len_bio.svg)
+
+## Results for tāmure / snapper
+
+![](img/snapper_transparent.png){.absolute top="-4%" right="0%" width="25%"}
 
 ::::: {.columns}
+
 
 :::: {.column width="70%"}
 
 ![](map/tmap_snapglyph2.png)
 ::::
 
+
 :::: {.column width="30%"}
 
 ::: {.smaller}
 
-<br><br>
+<br>
 
 Tāmure > 450 cm found *only* in the area protected since 2010.
 
@@ -240,6 +231,35 @@ How?
 :::
 
 
-## Potential benefits
+## Benefits beyond boundaries
 
-- 
+::::: {.columns}
+
+:::: {.column width="70%"}
+
+![](map/tmap_fish3.png)
+::::
+
+:::: {.column width="30%"}
+
+::: {.smaller}
+
+- Rāhui tapu are a safe haven for BOFFFs — Big Old Fat Fecund Fish
+- Estimated seasonal production of eggs (Crossland 1977, 1981)
+    - 250 mm: 80k–300k
+    - 500 mm: 4.5M–6M
+- A source of eggs and larvae for surrounding areas
+
+:::
+
+::::
+
+:::::
+
+::: notes
+
+- Not only that, the larvae from large fish are better quality -- provisioned with more nutrients so are more likely to survive
+- We showed using genetics that the very small marine reserve at Leigh contributes ~10% of the juvenile fish up to 50 km away, even though it was less than 1% of the study area.
+
+:::
+
