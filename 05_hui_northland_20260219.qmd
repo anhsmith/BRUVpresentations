@@ -1,0 +1,245 @@
+---
+title: "Stereo-video 'BRUV' survey of<br>Rakaumangamanga Rāhui Tapu 2025"
+image: img/ReefCodScar.png
+author: "Dr. Adam N. H. Smith" 
+institute: "Director, Sea Through Science Ltd"
+title-slide-attributes:
+  data-background-video: "vid/BOI25_S04_R03_H12-03_CW043_snapper_trev_eagleray_jdory.mp4"
+  data-background-size: "cover"
+  data-background-video-loop: true
+  data-background-video-muted: true
+  data-notes: "
+  
+  Tēnā koutou katoa<br>
+  I tipu ake au i Otautahi<br>
+  Kei te noho au ki Orewa<br>
+  Ko Heidi taku wahine<br>
+  He tamariki ā māua tokorua – tētahi tama, tētahi kōtiro<br>
+  Ko Adam Smith tōku ingoa<br>
+  Nō reira, tēnā koutou, tēnā koutou, tēnā tātou katoa<br><br>
+  
+  
+  Thank you for being here today<br><br>
+
+  I’m the Director of Sea Through Science, a company I started last year for statistical consulting and marine ecological research.<br><br>
+
+  I'm a statistician and marine ecologist. Up till Feb 2025, I was a lecturer in statistics at Massey University in Auckland.
+"
+format: 
+  revealjs:
+    theme: [default, styles.scss]
+    logo: "img/mark_black.png"
+    footer-logo-link: "https://www.seathrough.science/"
+    transition: fade
+    background-transition: fade
+    smaller: true
+filters: 
+  - reveal-header
+---
+
+```{r}
+library(tidyverse)
+theme_set(theme_bw())
+```
+
+
+##  {#all-white-fifteen background-image="img/rod-long-yUYStPPUthM-unsplash.jpg"}
+
+<br><br><br><br><br><br><br>
+
+### Acknowledgements
+
+- Northland Regional Council
+  + Nicola Hartwell
+  + Richard Griffiths
+- Ngāti Kuta and Patukeha hapū
+- Robert Willoughby
+- Skipper Bob Clarke, and Eli Sherman, Warren Matene, and Richard Griffiths
+- Heidi Schlumpf
+
+
+## What is a 'Stereo BRUV'?
+
+::: {.columns}
+
+::: {.column width="40%"} 
+
+- Stereo Baited Remote Underwater Video (SBRUV)
+- Stainless steel frame with two video cameras pointing at a bait canister, with lights and a depth sensor
+- Standard method used globally to monitoring fishes
+
+:::
+
+::: {.column width="60%"}
+
+![](img/BRUV.png)
+
+:::
+
+:::
+
+::: notes
+
+Introducing the stereo baited remote underwater video
+
+Each unit comprises a stainless steel frame with two video cameras, lights, a depth and temperature sensor, and a canister of fresh bait sticking out the front.
+
+We have six of these units, and we throw them into the sea and leave them for just over an hour. The bait attracts fish and other animals, and we can count the organisms and record the habitat.
+
+This has become a standard tool for monitoring fishes internationally. I've used these things for several years across New Zealand from the Kermadecs to Fiordland, as well as in several other countries, the Galapagos Islands, New Caledonia, Fiji. 
+
+We also used this method in a global study of sharks called Global FinPrint, which surveyed sharks on coral reefs all over the world.
+
+Why stereo? This one of the reasons why this method is so powerful...
+
+:::
+
+## What is a 'Stereo BRUV'?
+
+![](img/cal.png)
+
+::: {.absolute top=500}
+- After calibration with a specialist cube and software,<br>
+:::
+
+::: notes
+
+After calibrating a stereo BRUV with a special hardware and software, 
+
+you can take accurate measurements of the lenghts of fish and other objects.
+
+Much like our having two eyes allow to perceive depths.
+
+:::
+
+## What is a 'Stereo BRUV'?
+
+![](img/length2.png)
+
+::: {.absolute top=500}
+- After calibration with a specialist cube and software,<br> stereo BRUVs allow for accurate measurements of lengths.
+:::
+
+## Advantages of BRUVs
+
+::: {.columns}
+
+::: {.column width="40%"} 
+
+- Cost-effective
+- Non-destructive, non-lethal
+- Globally established methodology
+- Standardised observation period (60 min)
+- Broad depth range
+- Captures a wealth of information on multiple species, size-classes, and habitats
+- Permanent video archive
+
+:::
+
+::: {.column width="60%"}
+
+![Photo credit: C. Rob Priester](img/rob_housings.jpg)
+
+:::
+
+:::
+
+::: notes
+
+So, what are some of the advantages of this method?
+
+It's non-destructive. No fish were harmed to bring you these data.
+
+Because it's cost effective and non-destructive, we can do it more frequently.
+
+It's globally established, standardised methodology. I was a co-author on a published paper that established the standardised methods.
+
+They can access all sorts of habitats at a broad range of depths. We've sent some systems down to 1200 metres (not these ones). 
+
+They'll record anything that goes near a BRUV, all species of all sizes, as well as habitat information. 
+
+The fact that we have all this geographical and habitat information means that we can figure out what which areas and habitats are important to blue cod populations, at different parts of their life history.
+
+Finally, all the videos are stored in a permanent archive. We've extracted the data that we want, but the future opportunities are endless. These videos will likely be mined for information and projects we haven't even thought of yet. 
+
+:::
+
+
+## Our survey 
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+- Surveyed fish and habitats in/around the Rakaumangamanga Rāhui Tapu no-take area
+- 42 deployments in 2 days (contracted to do 36) in April 2025
+- Four levels of protection
+- The goal was to assess biodiversity and, in particular, abundance and size of tāmure 
+
+:::
+
+::: {.column width="70%"}
+
+![](map/boi25_mapwithinset.png){.absolute top="6%" right="0%" width="70%"}
+
+:::
+
+::::
+
+::: notes
+
+We got a lot done, thanks largely to the great crew that we had in the field
+
+:::
+
+
+## Overall results
+
+![](plots/boi25_g_occ.svg){.absolute top="0%" right="0%" height="100%" style="z-index:-1;"}
+
+
+## Results for tāmure
+
+![](img/snapper_transparent.png){.absolute top="0%" right="0%" width="32%" style="z-index:-1;"}
+
+::::: {.columns}
+
+:::: {.column width="70%"}
+
+![](map/tmap_snapglyph2.png)
+::::
+
+:::: {.column width="30%"}
+
+::: {.smaller}
+
+<br><br>
+
+Tāmure > 450 cm found *only* in the area protected since 2010.
+
+Legal-size tāmure found mostly in the rāhui tapu, including newly protected area.
+
+Rapid increase in legal-sized tāmure often observed in no-take areas. 
+
+How?
+
+:::
+
+::::
+
+:::::
+
+
+::: notes
+
+- Within a year or two
+- Large snapper move inshore in the summer where, in fished waters, they are mostly caught
+- In the rāhui tapu, they are protected from fishing, they remain.
+- Not a case of the fish already being there and just growing up; rather, it's a story of recolonisation — fish moving in from offshore stock and setting up territories on reefs.
+
+:::
+
+
+## Potential benefits
+
+- 

@@ -8,3 +8,5 @@
 .quarto
 /.quarto/
 Non-Destructive Marine Monitoring in Fiordland with Baited Remote Underwater Video (BRUV).pdf
+
+**/*.quarto_ipynb
