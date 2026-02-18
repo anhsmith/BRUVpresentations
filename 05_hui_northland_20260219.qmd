@@ -62,7 +62,7 @@ theme_set(theme_bw())
 
 :::
 
-## What is a 'Stereo BRUV'?
+## What is a 'Stereo BRUV'? {data-background-color="white"}
 
 ::: {.columns}
 

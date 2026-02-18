@@ -1,0 +1,272 @@
+---
+title: ""
+author: ""
+institute: ""
+pagetitle: "Stereo-video BRUV survey of Rakaumangamanga Rāhui Tapu 2025"
+talk-title: "Stereo-video 'BRUV' survey of<br>Rakaumangamanga Rāhui Tapu 2025"
+talk-author: "Dr. Adam N. H. Smith"
+talk-institute: "Director, Sea Through Science Ltd"
+format: 
+  revealjs:
+    theme: [default, styles.scss]
+    logo: "img/mark_black.png"
+    footer-logo-link: "https://www.seathrough.science/"
+    transition: fade
+    background-transition: fade
+    smaller: true
+    embed-resources: true
+    title-slide: false
+---
+
+```{r}
+library(tidyverse)
+theme_set(theme_bw())
+```
+
+## Stereo-video 'BRUV' survey of Rakaumangamanga Rāhui Tapu 2025 {data-background-video="vid/BOI25_S04_R03_H12-03_CW043_snapper_trev_eagleray_jdory.mp4" background-video-loop="true" background-video-muted="true"}
+
+Dr. Adam N. H. Smith  
+Director, Sea Through Science Ltd
+
+::: notes
+
+Tēnā koutou katoa<br>
+I tipu ake au i Otautahi<br>
+Kei te noho au ki Orewa<br>
+Ko Heidi taku wahine<br>
+He tamariki ā māua tokorua – tētahi tama, tētahi kōtiro<br>
+Ko Adam Smith tōku ingoa<br>
+Nō reira, tēnā koutou, tēnā koutou, tēnā tātou katoa<br><br>
+
+
+Thank you for being here today<br><br>
+
+I’m the Director of Sea Through Science, a company I started last year for statistical consulting and marine ecological research.<br><br>
+
+I'm a statistician and marine ecologist. Up till Feb 2025, I was a lecturer in statistics at Massey University in Auckland.
+
+:::
+
+##  {#all-white-fifteen background-image="img/rod-long-yUYStPPUthM-unsplash.jpg"}
+
+<br><br><br><br><br>
+
+### Acknowledgements
+
+::: {.small}
+
+- Northland Regional Council
+  + Nicola Hartwell
+  + Richard Griffiths
+- Ngāti Kuta and Patukeha hapū
+- Robert Willoughby
+- Skipper Bob Clarke, and Eli Sherman, Warren Matene, and Richard Griffiths
+- Heidi Schlumpf
+
+:::
+
+## What is a 'Stereo BRUV'? {data-background-color="white"}
+
+::: {.columns}
+
+::: {.column width="40%"} 
+
+- Stereo Baited Remote Underwater Video (SBRUV)
+- Stainless steel frame with two video cameras pointing at a bait canister, with lights and a depth sensor
+- Standard method used globally to monitoring fishes
+
+:::
+
+::: {.column width="60%"}
+
+![](img/BRUV.png)
+
+:::
+
+:::
+
+::: notes
+
+Introducing the stereo baited remote underwater video
+
+Each unit comprises a stainless steel frame with two video cameras, lights, a depth and temperature sensor, and a canister of fresh bait sticking out the front.
+
+We have six of these units, and we throw them into the sea and leave them for just over an hour. The bait attracts fish and other animals, and we can count the organisms and record the habitat.
+
+This has become a standard tool for monitoring fishes internationally. I've used these things for several years across New Zealand from the Kermadecs to Fiordland, as well as in several other countries, the Galapagos Islands, New Caledonia, Fiji. 
+
+We also used this method in a global study of sharks called Global FinPrint, which surveyed sharks on coral reefs all over the world.
+
+Why stereo? This one of the reasons why this method is so powerful...
+
+:::
+
+## What is a 'Stereo BRUV'?
+
+![](img/cal.png)
+
+::: {.absolute top=500}
+- After calibration with a specialist cube and software,<br>
+:::
+
+::: notes
+
+After calibrating a stereo BRUV with a special hardware and software, 
+
+you can take accurate measurements of the lengths of fish and other objects.
+
+Much like our having two eyes allow to perceive depths.
+
+:::
+
+## What is a 'Stereo BRUV'?
+
+![](img/length2.png)
+
+::: {.absolute top=500}
+- After calibration with a specialist cube and software,<br> stereo BRUVs allow for accurate measurements of lengths.
+:::
+
+
+## The survey 
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+- 42 deployments in 2 days (contracted to do 36) in May 2025
+- Four levels of protection
+
+:::
+
+::: {.column width="70%"}
+
+![](map/boi25_mapwithinset.png){.absolute top="6%" right="0%" width="70%"}
+
+:::
+
+::::
+
+::: notes
+
+We got a lot done, thanks largely to the great crew that we had in the field
+
+:::
+
+## {background-video="vid/BOI25_S07_R03_H12-03_MN090_bronzie.mp4" background-video-loop="true" background-video-muted="true"}
+
+Small snapper and a bronzie 
+
+## {background-video="vid/BOI25_S07_R03_H12-03_MN090_bigsnapper.mp4" background-video-loop="true" background-video-muted="true"}
+
+Large snapper
+
+## Overall results
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+- Observed 38 species from 22 families of fish
+- Average of 9.2 species per deployment
+- Tāmure / snapper were dominant — present at every site, ranging from 15 to 105, average 50
+- Araara / trevally also very widespread
+- Sharks and rays included eagle rays, two bronze whalers, short- and long-tail stingrays, and a hammerhead
+
+:::
+
+::: {.column width="40%"}
+
+![](plots/boi25_g_occ.svg){.absolute top="0%" right="0%" height="100%" style="z-index:-1;"}
+
+:::
+
+::::
+
+
+## Results for tāmure / snapper
+
+![](img/snapper_transparent.png){.absolute top="-4%" right="0%" width="25%"}
+
+![](plots/g_snapm_jit_maxn_len_bio.svg)
+
+For raw counts of snapper, rāhui tapu areas are not very different.
+
+But there ***area*** clear differences in size and biomass. 
+
+## Results for tāmure / snapper
+
+![](img/snapper_transparent.png){.absolute top="-4%" right="0%" width="25%"}
+
+::::: {.columns}
+
+
+:::: {.column width="70%"}
+
+![](map/tmap_snapglyph2.png)
+::::
+
+
+:::: {.column width="30%"}
+
+::: {.smaller}
+
+<br>
+
+Tāmure > 450 cm found *only* in the area protected since 2010.
+
+Legal-size tāmure found mostly in the rāhui tapu, including newly protected area.
+
+Rapid increase in legal-sized tāmure often observed in no-take areas. 
+
+How?
+
+:::
+
+::::
+
+:::::
+
+
+::: notes
+
+- Within a year or two
+- Large snapper move inshore in the summer where, in fished waters, they are mostly caught
+- In the rāhui tapu, they are protected from fishing, they remain.
+- Not a case of the fish already being there and just growing up; rather, it's a story of recolonisation — fish moving in from offshore stock and setting up territories on reefs.
+
+:::
+
+
+## Benefits beyond boundaries
+
+::::: {.columns}
+
+:::: {.column width="70%"}
+
+![](map/tmap_fish3.png)
+::::
+
+:::: {.column width="30%"}
+
+::: {.smaller}
+
+- Rāhui tapu are a safe haven for BOFFFs — Big Old Fat Fecund Fish
+- Estimated seasonal production of eggs (Crossland 1977, 1981)
+    - 250 mm: 80k–300k
+    - 500 mm: 4.5M–6M
+- A source of eggs and larvae for surrounding areas
+
+:::
+
+::::
+
+:::::
+
+::: notes
+
+- Not only that, the larvae from large fish are better quality -- provisioned with more nutrients so are more likely to survive
+- We showed using genetics that the very small marine reserve at Leigh contributes ~10% of the juvenile fish up to 50 km away, even though it was less than 1% of the study area.
+
+:::
+
